@@ -67,6 +67,8 @@ where dept_name = 'Sales' or dept_name ='Development';
 SELECT last_name, COUNT(last_name) AS "name count"
 FROM employees
 GROUP BY last_name
-ORDER BY "name count" DESC;
+ORDER BY "name count" DESC; 
 
+select * from employees 
+where emp_no = 499942; 
 
